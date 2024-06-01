@@ -19,7 +19,7 @@ import Subtitle from '@/components/Subtitle'
 import TextEditor from '@/components/TextEditor'
 // import { useSearchParams } from 'next/navigation'
 
-const db = [
+const db = [ 
     {
         title: 'ESTACIÓN DE FLETE DE CONTENEDORES',
         image: '/container.png',
