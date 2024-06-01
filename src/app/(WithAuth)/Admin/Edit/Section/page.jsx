@@ -19,24 +19,6 @@ import Subtitle from '@/components/Subtitle'
 import TextEditor from '@/components/TextEditor'
 // import { useSearchParams } from 'next/navigation'
 
-const db = [ 
-    {
-        title: 'ESTACIÓN DE FLETE DE CONTENEDORES',
-        image: '/container.png',
-        paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit repellat voluptatem magni sequi in.'
-    },
-    {
-        title: 'ESTACIÓN DE FLETE DE CONTENEDORES',
-        image: '/container.png',
-        paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit repellat voluptatem magni sequi in.'
-    },
-    {
-        title: 'ESTACIÓN DE FLETE DE CONTENEDORES',
-        image: '/container.png',
-        paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit repellat voluptatem magni sequi in.'
-    },
-]
-
 
 
 
@@ -133,7 +115,7 @@ export default function Home() {
         e.target[0].files[0] && uploadIMG(`articleIMG/IMG2023`, 'articleIMG', 'IMG2023', e.target[0].files[0], {}, setUserData, setUserSuccess, 'url')
         Object.keys(obj).length > 0 && writeUserData(`articles/${item !== undefined ? item : filename}`, obj, setUserData, setUserSuccess)
     }
-    addTestimonies
+    
 
 
     function addTestimonies(e) {
