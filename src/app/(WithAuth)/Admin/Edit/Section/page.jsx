@@ -241,7 +241,7 @@ export default function Home() {
 
 useEffect(()=>{
 
-},[])
+},[])        
 
 
 
@@ -262,8 +262,8 @@ useEffect(()=>{
                 <div className="fixed top-0 left-0 flex justify-center w-full h-auto bg-[#000000b4] p-0 z-40 " >
                     <form className="relative w-[95%] h-screen overflow-y-scroll lg:w-[50%] bg-white border-b border-gray-900/10 pt-16 pb-16 lg:pb-4 px-5" onSubmit={saveFrontPage} >
                         <div className="col-span-full">
-                            <h2 className="text-base font-bold leading-7 text-gray-900  text-center p-5 ">Administrar portada principal</h2>
-                            <label htmlFor="cover-photo" className="block text-sm font-medium leading-6 text-gray-900">Foto de imagen de fondo</label>
+                            <h2 className="text-base font-bold leading-7 text-gray-900  text-center p-5 ">Administrar secciones</h2>
+                            <label htmlFor="cover-photo" className="block text-sm font-medium leading-6 text-gray-900">Video de imagen de fondo</label>
                             <div className="w-full flex justify-center">
                                 <div className="mt-2 flex justify-center rounded-lg border border-dashed border-gray-900/25 px-6 py-10 md:w-[250px] md:h-[200px]"
                                     style={{
@@ -278,12 +278,12 @@ useEffect(()=>{
                                         </svg>
                                         <div className="mt-4 flex text-sm leading-6 text-gray-600">
                                             <label htmlFor="fileUpload" className="relative cursor-pointer rounded-md bg-white font-semibold text-indigo-600 focus-within:outline-none focus-within:ring-2 focus-within:ring-indigo-600 focus-within:ring-offset-2 hover:text-indigo-500">
-                                                <span>Upload a file</span>
+                                                <span>Subir video</span>
                                                 <input id="fileUpload" name="frontPage" onChange={handlerImage} type="file" accept="video/*" className="sr-only" />
                                             </label>
-                                            <p className="pl-1">or drag and drop</p>
+                                            <p className="pl-1">menos de 5mb</p>
                                         </div>
-                                        <p className="text-xs leading-5 text-gray-600">PNG, JPG, GIF up to 10MB</p>
+                                        <p className="text-xs leading-5 text-gray-600">MP4</p>
                                     </div>
                                 </div>
                             </div>
