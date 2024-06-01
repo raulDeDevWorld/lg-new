@@ -320,7 +320,7 @@ useEffect(()=>{
                             <button class="bg-red-500 text-white font-bold py-2 px-4 rounded-l">
                                 -
                             </button>
-                            <button class="bg-green-500 text-white font-bold py-2 px-4 rounded-r" onClick={() => setCounter([...counter, ''])} >
+                            <button class="bg-green-500 text-white font-bold py-2 px-4 rounded-r" onClick={() => setData2([...counter, ''])} >
                                 +
                             </button>
                         </div>
