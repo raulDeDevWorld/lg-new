@@ -194,9 +194,9 @@ export default function Home() {
         } else {
         }
 
-        if (window && typeof window !== "undefined") {
-            setQuery(window.location.href.split('=')[1])
-        }
+        // if (window && typeof window !== "undefined") {
+        //     setQuery(window.location.href.split('=')[1])
+        // }
 
 
     }, [cliente])
